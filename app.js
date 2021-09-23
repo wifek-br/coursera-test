@@ -9,10 +9,10 @@ function contentLoaded(event){
 }
 
 function keyUp (event){
-  calculateNumbericOutput();
+  calculateNumericOutput();
 }
 
-function calculateNumbericOutput(){
+function calculateNumericOutput(){
   student.name=document.getElementById('name').value;
 var totalNameValue=0;
 for(var i =0; i<student.name.length;i++){
